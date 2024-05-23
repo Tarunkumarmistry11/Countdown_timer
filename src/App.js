@@ -82,7 +82,7 @@ function App() {
       )}
       {isOver100Days && (
         <div className="message">
-          🚫 The selected time is more than 100 days from now. 🚫
+           The selected time is more than 100 days from now. 
         </div>
       )}
       {isCountdownActive && !isOver100Days && (
